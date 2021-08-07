@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /*background: #fff;*/
+}
+
+.header-wrapper {
+  margin: 5% 5%;
+}
+
+.sec-1-wrapper, .sec-2-wrapper, .sec-3-wrapper, .sec-4-wrapper {
+  margin: 10% 5% 10% 5%;
+}
+
+.sec-5-wrapper {
+  margin: 20% 5% 20% 5%;
+}
+
+.footer-wrapper {
+  margin: 20% 5% 0% 5%;
+}
+
+.sec-2-text-1 {
+  margin-top: 20%;
+}
+
+.sec-3-wrapper img {
+  margin: 20% 0 20% 0; 
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+header {
+  background: #fff;
+  border-width: 0 0 0.5px 0;
+  border-color: #111;
+  border-style: solid;
+}
+
+header img {
+  display: block;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+  color: #222;
+  font-family: yeseva one;
+  font-weight: 700;
+  padding-bottom: 5%;
+  /*this wont apply for pc*/
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section-1 p {
+  margin-bottom: 10%;
+}
+
+.section-5 p {
+  margin: 5% 0;
+}
+
+h5 {
+  color: #00a755;
+  font-family: roboto;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  padding: 5%;
+}
+
+p {
+  color: #222;
+  font-family: roboto;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  background-color: #00a755;
+  border-radius: 100px;
+  cursor: pointer;
+  display; block;
+}
+
+#button {
+  display: block;
+  margin: auto;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+#button:hover {
+  opacity: 0.3;
+}
+
+.btn-type-1 {
+  width: 60%;
+  height: 50px;
+}
+
+.btn-type-2 {
+  width: 45%;
+  height: 50px;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+  /*will not apply for pc*/
+}
+
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #e0f5ec;
+}
+
+.section-1 img {
+  width: 100%;
+  margin: 20% 0% 0% 0%;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-2-imgs {
+  display: flex;
+  flex-direction: row;
+  /* nowrap for pc*/
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-2-imgs img {
+  height:45%;
+  width: 45%;
+  padding-bottom: 5%;
+}
+
+#logo-7 {
+  height: 100%;
+  width: 100%;
+}
+
+.img-gif {
+  width: 100%;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-3 img {
+  width: 100%;
+}
+
+.section-4 {
+  background: #f5f7f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-4-imgs-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-4-imgs-1 img {
+  height: 45%;
+  width: 45%;
+  padding-bottom: 5%;
+}
+
+#logoi, #logop {
+  margin: auto;
+}
+
+.sec-4-imgs-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-4-imgs-2 {
+  padding-bottom: 5%;
+  margin: 0 5.5%;
+}
+
+.sec-4-pt-2 p a {
+  text-decoration: none;
+  color: #00a755;
+}
+
+.sec-4-pt-2 {
+  margin-top: 10%;
+}
+  /*
+  /these settings are for pc/
+  border-style: solid;
+  border-width: 0.5px 0 0 0;
+  border-color: #999;
+}
+
+.sec-4-pt-2 h3 {
+  padding-top: 10%;
+}
+  */
+
+.section-5 {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: roboto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-bottom: 10%;
+}
+
+ul li {
+  padding-bottom: 5%;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #00a755;
+}
